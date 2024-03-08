@@ -12,7 +12,7 @@ def convert_grades():
         scale = scale_var.get()
         if scale == '110':
             converted_grade = ((iranian_grade - 10) / 10) * 44 + 66
-        else:
+        else: #scale == '100'
             converted_grade = ((iranian_grade - 10) / 10) * 40 + 60
 ```
 You can also download the app for windows users. Wish you luck.
